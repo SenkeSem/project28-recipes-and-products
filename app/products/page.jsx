@@ -1,10 +1,7 @@
-import React from 'react';
-import ProductInput from '../../components/ProductInput';
+'use client';
+import ProductInput from '@/components/ProductInput';
 
-// import { store } from '../redux/store';
-// import { Provider } from 'react-redux';
-
-export default function Page() {
+export default function ProductPage() {
   return (
     <div>
       <h2>Продуктовая страница</h2>

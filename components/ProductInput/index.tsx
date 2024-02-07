@@ -1,11 +1,8 @@
 'use client';
-
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
 
 export default function ProductInput() {
   const [product, setProduct] = useState('');
-  // const dispatch = useDispatch();
 
   const handleAddProduct = () => {
     alert('Кнопка работает!!!');
